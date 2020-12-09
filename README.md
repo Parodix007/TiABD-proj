@@ -12,4 +12,4 @@ Testowanie szybkosci MariaDB/MySQL
 	* czyli np. czy jeżeli zrobimy grupowanie, ale wybierzemy tylko ``select *``, to czy to wpływa na czas działania - jeśli tak, i jest krócej, to znaczy, że silnik upraszcza zapytania itd.
 ## Srodowisko badawcze
 * Program ktory odpowiada za wykonywanie operacji na bazie danych jest to [MySQL Workbench](https://www.mysql.com/products/workbench/).
-* Do przeprowadzenia testow bede uzywal jezyka Rust ktory pozwoli mi wykonac *n zapytan do bazy aby mozna bylo nastepnie pobrac sredni wynik.
+* Do przeprowadzenia testow bede uzywal jezyka *Rust* ktory pozwoli mi wykonac *n* zapytan do bazy aby mozna bylo nastepnie pobrac sredni wynik.
