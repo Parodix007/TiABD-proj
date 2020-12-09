@@ -1,6 +1,6 @@
 # TiABD-proj
 Testowanie szybkosci MariaDB/MySQL
-* Aplikacja do testowania zapytan w MariaDB i MySQL napisana w jezyku Rust.
+* Aplikacja do testowania zapytan w MariaDB/MySQL napisana w jezyku Rust.
 ## Opis projektu
 * Problemem tego projektu jest szybkosc wykonywania zapytan w bazach danych opartych o MariaDB/MySQL. Testowane jest to na przykladzie bazy danych [Employees z dokumentacji MySQL](https://github.com/datacharmer/test_db). Bedzie na niej przeprowadzane 4-5 testow opartych o konkretne problemy.
 ## Problemy badawcze
@@ -12,4 +12,4 @@ Testowanie szybkosci MariaDB/MySQL
 	* czyli np. czy jeżeli zrobimy grupowanie, ale wybierzemy tylko ``select *``, to czy to wpływa na czas działania - jeśli tak, i jest krócej, to znaczy, że silnik upraszcza zapytania itd.
 ## Srodowisko badawcze
 * Program ktory odpowiada za wykonywanie operacji na bazie danych jest to [MySQL Workbench](https://www.mysql.com/products/workbench/).
-* Do przeprowadzenia testow bede uzywal jezyka Rust ktory pozwoli mi wykonac *n zapytan do bazy aby mozna bylo nastepnie pobrac sredni wynik.
+* Do przeprowadzenia testow bede uzywal jezyka *Rust* ktory pozwoli mi wykonac *n* zapytan do bazy aby mozna bylo nastepnie pobrac sredni wynik.
