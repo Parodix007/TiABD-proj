@@ -1,6 +1,6 @@
-use db_conn::db_conn::DB;
+use db_conn::database::DataBase;
 
 fn main() {
-	let db = DB::new(String::from("db"));
+	let db = DataBase::new();
     println!("{:#?}", db);
 }
