@@ -2,5 +2,5 @@ use db_conn::database::DataBase;
 
 fn main() {
 	let db = DataBase::new();
-    println!("{:#?}", db);
+    db.get_actors("SELECT first_name, last_name FROM actor")
 }
