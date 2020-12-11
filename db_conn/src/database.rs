@@ -9,7 +9,7 @@ pub struct DataBase {
 impl DataBase {
 	pub fn new() -> Self {
 		Self {
-			conn_url: String::from("mysql://root:password@localhost:3306/sakila"),
+			conn_url: String::from("mysql://admin:1234qwer!@localhost:3306/employees"),
 		}
 	}
 	pub fn get_actors(&self, query: &str){

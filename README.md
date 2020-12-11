@@ -2,7 +2,7 @@
 Testowanie szybkosci MariaDB/MySQL
 * Aplikacja do testowania zapytan w MariaDB/MySQL napisana w jezyku Rust.
 ## Opis projektu
-* Problemem tego projektu jest szybkosc wykonywania zapytan w bazach danych opartych o MariaDB/MySQL. Testowane jest to na przykladzie bazy danych [Employees z dokumentacji MySQL](https://github.com/datacharmer/test_db). Bedzie na niej przeprowadzane 4-5 testow opartych o konkretne problemy.
+* Problemem tego projektu jest szybkosc wykonywania zapytan w bazach danych opartych o MariaDB/MySQL. Testowane jest to na przykladzie bazy danych [Employees z dokumentacji MySQL](https://github.com/datacharmer/test_db). Bedzie na niej przeprowadzane **2 testy** opart o konkretne problemy.
 ## Problemy badawcze
 * Wplyw indeksow na szybkosc przeszukiwania:
 	* wykonać zapytanie do bazy danych, sprawdzające, ile zostało dokonanych wypłat na daną kwotę (czyli przez grupowanie),
